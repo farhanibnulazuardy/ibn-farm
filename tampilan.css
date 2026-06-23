@@ -145,11 +145,12 @@ header .cart a:hover {
 }
 
 .card img {
-    display:block !important;
-    max-width: 90% !important;
-    height: 180px !important;
-    object-fit: contain !important;
-    border-radius: 15px auto 5px auto !important;
+    display: block !important;
+    width: auto !important; 
+    max-width: 80% !important; 
+    height: 150px !important; 
+    object-fit: contain !important; 
+    margin: 15px auto 0 auto !important; 
 }
 
 .card h3 {
