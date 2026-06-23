@@ -123,7 +123,7 @@ header .cart a:hover {
 
 .product-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, minmax(0, 1fr));
     gap: 30px;
 }
 
@@ -135,6 +135,8 @@ header .cart a:hover {
     text-align: center;
     padding-bottom: 15px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display:flex ;
+    flex-direction: column;
 }
 
 .card:hover {
