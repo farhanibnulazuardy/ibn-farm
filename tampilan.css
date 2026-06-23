@@ -145,7 +145,8 @@ header .cart a:hover {
 .card img {
     width: 100% !important;
     height: 200px !important;
-    object-fit: cover !important;
+    object-fit: contain !important;
+    border-radius: 12px 12px 0 0;
 }
 
 .card h3 {
