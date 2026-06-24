@@ -143,14 +143,11 @@ header .cart a:hover {
     transform: translateY(-8px);
     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
 }
-
 .card img {
-    display: block !important;
-    width: auto !important; 
-    max-width: 80% !important; 
-    height: 150px !important; 
-    object-fit: contain !important; 
-    margin: 15px auto 0 auto !important; 
+    width: 100% !important;
+    height: 200px !important;
+    object-fit: contain !important;
+    margin: 0 !important;
 }
 
 .card h3 {
